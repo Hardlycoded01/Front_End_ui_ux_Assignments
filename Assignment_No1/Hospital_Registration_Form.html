@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Registration Form</title>
+    <style>
+        body {
+           background-size: 1360px 590px;
+            background-image: url(hp.jpg);
+        }
+
+        nav {
+            height: 20px;
+            border-radius: 710px;
+            padding: 10px;
+            display: flex;
+          
+            justify-content:start;
+            margin: 3px;
+            background-color: rgb(56, 52, 52);
+        }
+
+        nav:hover {
+            zoom: normal;
+            transform: translateY(2px);
+        }
+      
+        form{
+            margin-top: 20px;
+           width: 650px;
+           height: 570px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 5px;
+
+            margin-right: 5px;
+            margin-left: 20px;
+            box-shadow: 0px 12px 12px rgb(0,255,255,0.5);
+            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+      input{
+        display: flexroot;
+        justify-items: center;
+          
+      }
+      label{
+        font-weight: 550;
+      }
+        form:hover{
+            transform: translateY(2px);
+           
+        }
+         h2,h4{
+            text-align: center;
+        }
+
+        a {
+            
+            margin-right: 50px;
+            text-decoration: none;
+            font-weight: 800;
+            color: white;
+        }
+
+        a:hover {
+
+            border-radius: 10%;
+            background-color: white;
+            color: black;
+            border: solid white 2px;
+        }
+      
+        #emerge{
+                margin-right: 20px;
+        }
+   
+    </style>
+</head>
+<nav>
+    <li type="none" ><a href="">Home</a></li>
+   <li type="none"></li><a href="">Services</a></li>
+    <li type="none"><a href="">Departments</a></li>
+    <li type="none"><a href="">Doctors</a></li>
+    <li type="none"><a href="">Contact Us</a></li>
+    <li type="none"><a href="">About</a></li>
+</nav>
+
+<body>
+   
+        
+        <form action="none.php">
+            <h2>Hospital Registration Form</h2>
+            <label for="pname">Patient Name: </label>
+            <input type="text" name="pname" id=""><br><br>
+            <label for="page">Age: </label>
+            <input type="number" name="page" id=""><br><br>
+            <label for="gender">Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" >
+            <label for="female">female</label>
+            <input type="radio" name="gender" ><br><br>
+
+            <label for="dob">D.O.B: </label>
+            <input type="date" name="dob" id=""><br><br>
+            <label for="phno">Phone: </label>
+            <input type="number" name="phno" id=""><br><br>
+            <label for="address">Address: </label>
+            <input type="textarea" name="address"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id=""><br><br>
+            <label for="time">Time of Registration: </label>
+            <input type="datetime-local" name="time"><br><br>
+            <label for="reason">Illness: </label>
+            <input  type="text" name="reaosn" id="emerge">
+
+            <label  for="emer">Emergency:</label>
+            <label for="emer">Yes</label>
+            <input type="radio" name="emer" id="">
+            <label for="emer">No</label>
+            <input type="radio" name="emer" id="">
+
+
+
+
+            <h4>Guardian Information</h4>
+<label for="gname">Guardian Name: </label>
+            <input type="text" name="gname" id="">
+            <label for="grel">Relation </label>
+            <input type="text" name="grel" id=""><br><br>
+            <label for="gphno">Phone</label>
+            <input type="number" name="gphno" id=""><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+        </form>
+   
+</body>
+
+</html>
