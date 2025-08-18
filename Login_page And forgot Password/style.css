@@ -1,0 +1,187 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Google Sans Code";
+    background-color: rgb(22, 26, 31);
+    justify-items: center;
+}
+
+form {
+
+    height: 410px;
+    padding: 15px;
+    border-radius: 36px;
+    margin-top: 105px;
+    width: 850px;
+    background-color: black;
+}
+
+input {
+    position: relative;
+    bottom: 37px;
+    background-color: black;
+    width: 274px;
+    height: 40px;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 7px;
+    margin: 0px 0px 0px 64px;
+    border-radius: 5px;
+}
+
+p {
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    width: 404px;
+    padding-left: 40px;
+}
+
+form h3 {
+    font-size: 38px;
+    padding: 15px 0px 0px 36px;
+    font-weight: 400;
+    color: white;
+    display: inline-block;
+}
+
+form::placeholder {
+    color: aliceblue;
+}
+
+#forgot_email {
+    position: relative;
+    bottom: 34px;
+    right: 33px;
+    text-decoration: none;
+    color: rgb(1, 119, 255);
+    float: right;
+    padding-top: 3px;
+    width: 99px;
+    font-weight: 600;
+    font-size: medium;
+    margin-right: 29px;
+    font-family: "";
+}
+
+#forgot_email:hover {
+    background-color: rgba(158, 153, 153, 0.308);
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 56px;
+    height: 30px;
+    width: 74px;
+    background-color: rgb(1, 119, 255);
+    border: 2px solid rgb(1, 119, 255);
+
+    float: right;
+    clear: both;
+    position: relative;
+    top: 62px;
+    right: 50px;
+    cursor: pointer;
+
+}
+
+button>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: rgb(40, 128, 209);
+    border-color: rgb(40, 128, 209);
+}
+
+img {
+    margin: 2px auto;
+    margin-left: 5px;
+    display: inline;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#ca {
+    text-decoration: none;
+    color: rgb(1, 119, 255);
+    font-weight: 600;
+    font-size: medium;
+    float: right;
+    clear: both;
+    position: relative;
+    top: 40px;
+    right: 150px;
+}
+
+#ca:hover {
+    background-color: rgba(158, 153, 153, 0.308);
+    border-radius: 5px;
+}
+
+#guest_para {
+    display: inline-block;
+    clear: both;
+    position: relative;
+    top: 100px;
+}
+
+#guest {
+    font-size: small;
+}
+
+#guest_mode {
+    text-decoration: none;
+    color: rgb(1, 119, 255);
+    font-weight: 500;
+    font-size: medium;
+}
+#guest_mode:hover{
+text-decoration: underline;
+}
+#langbox{
+    position: relative;
+    right: 309px;
+    bottom: 2px;
+}
+#lang {
+    border: 1px solid rgb(22, 26, 31);
+    color: white;
+    background-color: rgb(22, 26, 31);
+    padding: 5px;
+    margin-top: 5px;
+    left: 295px;
+    cursor: pointer;
+}
+
+#links {
+    position: relative;
+    left: 265px;
+    bottom: 28px;
+}
+
+#links>ul {
+    list-style: none;
+    display: flex;
+}
+
+#links>ul>li {
+    margin-left: 40px;
+}
+
+#links>ul>li>a {
+    font-size: smaller;
+    text-decoration: none;
+    color: white;
+}
+
+#links>ul>li>a:hover {
+    text-decoration: underline;
+}
